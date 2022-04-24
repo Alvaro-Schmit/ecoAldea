@@ -1,0 +1,33 @@
+
+
+body{
+    font-family:'Arial' ;
+    background-image: url(../img/planta-maps-claro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:lighten;
+}
+
+.li-otros{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-otros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.p-otros{
+    width: 60%;
+}
+.ul-otros{
+    padding-left: 0;
+}

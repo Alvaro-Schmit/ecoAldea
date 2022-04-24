@@ -1,0 +1,110 @@
+
+
+body{
+    font-family:'Arial' ;
+    background-image: url(../img/planta-maps-claro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:lighten;
+}
+
+
+.container-flex{
+    background-color: rgba(244, 251, 245, 0.3);
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 30px;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 50px;
+ display: flex;  
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.img-flex{
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    margin-bottom: 80px;
+}
+
+.img:hover{
+filter:brightness(80%);
+cursor: pointer;
+transition: filter cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.container-img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    background: rgba(0, 0, 0, 0.486);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .4s ease-in;
+
+}
+.img-show{
+    height: 98%;
+    max-width: 90%;
+    display: block;
+  
+}
+
+.copy{
+    position: fixed;
+    color: blanchedalmond;
+    bottom: 40px;
+    
+}
+.bx.bxs-x-circle{
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(245, 237, 237);
+   
+}
+
+.move{
+    transform: translateX(0); 
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 676px){
+
+    .img-flex{
+        width: 90%;
+        height: auto;
+        margin: 1%;
+        margin-bottom: 80px;
+    }
+    .img-show{
+        
+        width: 90%;
+        height: auto;
+     
+      
+    }
+
+}
+@media only screen and (min-width: 676px) and (max-width: 916px){
+    .img-show{
+        
+        width: 100%;
+        height: auto;
+     
+      
+    }
+}

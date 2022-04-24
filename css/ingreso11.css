@@ -51,7 +51,9 @@ body{
 }   
 }
 .transition{
+  
     transition: all 0.5s; 
+  
 }
 .transition :hover{
     cursor: pointer;
@@ -59,7 +61,6 @@ body{
     height: 320px;
   transition: 1s;
  
-  filter: drop-shadow(5px 5px 6px rgb(53, 28, 28));
     
 }
 
