@@ -154,12 +154,20 @@ body {
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.prop-original{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+flex-direction: column;
+justify-content: center;
+}
 
 .texto-container {
 
 
 
-  position: absolute;
+  /* position: absolute; */
   width: 95%;
 
   margin-left: 2.5%;
@@ -169,6 +177,16 @@ body {
 
 
 }
+.texto-container-2 {
+  position: absolute;
+  width: 95%;
+
+  margin-left: 2.5%;
+  margin-top: 100px;
+  background-color: rgba(244, 251, 245, 0.67);
+  border-radius: 10px;
+
+ }
 
 .section-invisible {
   width: 90%;
